@@ -5,10 +5,11 @@ body {
 }
 
 .container {
-    max-width: 50%;
-    height: 90%;
+    max-width: 70%;
+    height: 60%;
     background-color: white;
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -17,4 +18,40 @@ h1 {
 
 .noteForm {
     display: flex;
+    padding: 50px;
+}
+
+textarea {
+    margin-right: 40px;
+    border-radius: 5px;
+    padding: 8px;
+    height: auto;
+}
+
+button {
+    padding: 1% 2%;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+ol {
+    padding: 0;
+
+}
+
+li {
+    display: flex;
+    padding: 8px 0;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+@media screen and (max-width: 768px) { 
+    .body {
+        font-size: 15px;
+    }
 }
