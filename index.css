@@ -4,6 +4,7 @@ body {
     background: linear-gradient(to bottom right, rgb(86, 223, 233), rgb(243, 98, 122));
     margin: 0;
     font-family: Arial, sans-serif;
+    font-size: large;
 }
 
 .container {
@@ -29,28 +30,20 @@ textarea {
     margin: 10px 0;
     border-radius: 5px;
     padding: 8px;
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
 }
 
-#addButton {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: coral;
-    color: white;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-}
-
+#addButton,
 #deleteButton {
     margin-top: 10px;
-    padding: 10px 20px;
+    padding: 8px 16px;
     background-color: coral;
     color: white;
     cursor: pointer;
     border: none;
     border-radius: 5px;
+    font-size: 14px;
 }
 
 ol {
@@ -67,14 +60,18 @@ li {
 
     body {
         font-size: 18px;
-        width: 100%;
     }
 
     .container {
-        max-width: 95%;
+        max-width: 90%;
     }
 
     .noteForm {
         padding: 10px;
+    }
+
+    #noteInput,
+    #addButton {
+        font-size: 18px;
     }
 }
